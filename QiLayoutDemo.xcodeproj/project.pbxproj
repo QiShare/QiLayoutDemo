@@ -13,6 +13,11 @@
 		0680F645229295740063F831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0680F644229295740063F831 /* Assets.xcassets */; };
 		0680F648229295740063F831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0680F646229295740063F831 /* LaunchScreen.storyboard */; };
 		0680F64B229295740063F831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F64A229295740063F831 /* main.m */; };
+		0680F6582292A97F0063F831 /* QiFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6572292A97F0063F831 /* QiFrameViewController.m */; };
+		0680F65B2292A98D0063F831 /* QiAutoresizingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F65A2292A98D0063F831 /* QiAutoresizingViewController.m */; };
+		0680F65E2292A99F0063F831 /* QiConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F65D2292A99F0063F831 /* QiConstraintViewController.m */; };
+		0680F6612292A9BC0063F831 /* QiStackViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6602292A9BC0063F831 /* QiStackViewViewController.m */; };
+		0680F6642292A9CB0063F831 /* QiMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6632292A9CB0063F831 /* QiMasonryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		0680F647229295740063F831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0680F649229295740063F831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0680F64A229295740063F831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0680F6562292A97F0063F831 /* QiFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiFrameViewController.h; sourceTree = "<group>"; };
+		0680F6572292A97F0063F831 /* QiFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiFrameViewController.m; sourceTree = "<group>"; };
+		0680F6592292A98D0063F831 /* QiAutoresizingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiAutoresizingViewController.h; sourceTree = "<group>"; };
+		0680F65A2292A98D0063F831 /* QiAutoresizingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiAutoresizingViewController.m; sourceTree = "<group>"; };
+		0680F65C2292A99F0063F831 /* QiConstraintViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiConstraintViewController.h; sourceTree = "<group>"; };
+		0680F65D2292A99F0063F831 /* QiConstraintViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiConstraintViewController.m; sourceTree = "<group>"; };
+		0680F65F2292A9BC0063F831 /* QiStackViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiStackViewViewController.h; sourceTree = "<group>"; };
+		0680F6602292A9BC0063F831 /* QiStackViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiStackViewViewController.m; sourceTree = "<group>"; };
+		0680F6622292A9CB0063F831 /* QiMasonryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiMasonryViewController.h; sourceTree = "<group>"; };
+		0680F6632292A9CB0063F831 /* QiMasonryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiMasonryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,11 @@
 				0680F63C229295720063F831 /* AppDelegate.m */,
 				0680F63E229295720063F831 /* ViewController.h */,
 				0680F63F229295720063F831 /* ViewController.m */,
+				0680F65322929CF20063F831 /* Frame */,
+				0680F6542292A2570063F831 /* Autoresizing */,
+				0680F65222929CEC0063F831 /* Constraint */,
+				0680F6552292A3C90063F831 /* StackView */,
+				0680F65122929CE90063F831 /* Masonry */,
 				0680F641229295720063F831 /* Main.storyboard */,
 				0680F644229295740063F831 /* Assets.xcassets */,
 				0680F646229295740063F831 /* LaunchScreen.storyboard */,
@@ -69,6 +89,51 @@
 				0680F64A229295740063F831 /* main.m */,
 			);
 			path = QiLayoutDemo;
+			sourceTree = "<group>";
+		};
+		0680F65122929CE90063F831 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0680F6622292A9CB0063F831 /* QiMasonryViewController.h */,
+				0680F6632292A9CB0063F831 /* QiMasonryViewController.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		0680F65222929CEC0063F831 /* Constraint */ = {
+			isa = PBXGroup;
+			children = (
+				0680F65C2292A99F0063F831 /* QiConstraintViewController.h */,
+				0680F65D2292A99F0063F831 /* QiConstraintViewController.m */,
+			);
+			path = Constraint;
+			sourceTree = "<group>";
+		};
+		0680F65322929CF20063F831 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				0680F6562292A97F0063F831 /* QiFrameViewController.h */,
+				0680F6572292A97F0063F831 /* QiFrameViewController.m */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		0680F6542292A2570063F831 /* Autoresizing */ = {
+			isa = PBXGroup;
+			children = (
+				0680F6592292A98D0063F831 /* QiAutoresizingViewController.h */,
+				0680F65A2292A98D0063F831 /* QiAutoresizingViewController.m */,
+			);
+			path = Autoresizing;
+			sourceTree = "<group>";
+		};
+		0680F6552292A3C90063F831 /* StackView */ = {
+			isa = PBXGroup;
+			children = (
+				0680F65F2292A9BC0063F831 /* QiStackViewViewController.h */,
+				0680F6602292A9BC0063F831 /* QiStackViewViewController.m */,
+			);
+			path = StackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +207,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0680F640229295720063F831 /* ViewController.m in Sources */,
+				0680F65E2292A99F0063F831 /* QiConstraintViewController.m in Sources */,
+				0680F6612292A9BC0063F831 /* QiStackViewViewController.m in Sources */,
 				0680F64B229295740063F831 /* main.m in Sources */,
+				0680F6582292A97F0063F831 /* QiFrameViewController.m in Sources */,
 				0680F63D229295720063F831 /* AppDelegate.m in Sources */,
+				0680F6642292A9CB0063F831 /* QiMasonryViewController.m in Sources */,
+				0680F65B2292A98D0063F831 /* QiAutoresizingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
