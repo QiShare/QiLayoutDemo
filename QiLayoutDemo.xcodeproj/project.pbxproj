@@ -18,6 +18,8 @@
 		0680F65E2292A99F0063F831 /* QiConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F65D2292A99F0063F831 /* QiConstraintViewController.m */; };
 		0680F6612292A9BC0063F831 /* QiStackViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6602292A9BC0063F831 /* QiStackViewViewController.m */; };
 		0680F6642292A9CB0063F831 /* QiMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6632292A9CB0063F831 /* QiMasonryViewController.m */; };
+		0680F6672292B5780063F831 /* UIView+QiAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6662292B5780063F831 /* UIView+QiAddition.m */; };
+		0680F66A2292BA3C0063F831 /* QiFrameContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6692292BA3C0063F831 /* QiFrameContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,10 @@
 		0680F6602292A9BC0063F831 /* QiStackViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiStackViewViewController.m; sourceTree = "<group>"; };
 		0680F6622292A9CB0063F831 /* QiMasonryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiMasonryViewController.h; sourceTree = "<group>"; };
 		0680F6632292A9CB0063F831 /* QiMasonryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiMasonryViewController.m; sourceTree = "<group>"; };
+		0680F6652292B5780063F831 /* UIView+QiAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+QiAddition.h"; sourceTree = "<group>"; };
+		0680F6662292B5780063F831 /* UIView+QiAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QiAddition.m"; sourceTree = "<group>"; };
+		0680F6682292BA3C0063F831 /* QiFrameContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiFrameContentView.h; sourceTree = "<group>"; };
+		0680F6692292BA3C0063F831 /* QiFrameContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiFrameContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 			children = (
 				0680F6562292A97F0063F831 /* QiFrameViewController.h */,
 				0680F6572292A97F0063F831 /* QiFrameViewController.m */,
+				0680F6682292BA3C0063F831 /* QiFrameContentView.h */,
+				0680F6692292BA3C0063F831 /* QiFrameContentView.m */,
+				0680F6652292B5780063F831 /* UIView+QiAddition.h */,
+				0680F6662292B5780063F831 /* UIView+QiAddition.m */,
 			);
 			path = Frame;
 			sourceTree = "<group>";
@@ -206,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0680F6672292B5780063F831 /* UIView+QiAddition.m in Sources */,
 				0680F640229295720063F831 /* ViewController.m in Sources */,
+				0680F66A2292BA3C0063F831 /* QiFrameContentView.m in Sources */,
 				0680F65E2292A99F0063F831 /* QiConstraintViewController.m in Sources */,
 				0680F6612292A9BC0063F831 /* QiStackViewViewController.m in Sources */,
 				0680F64B229295740063F831 /* main.m in Sources */,

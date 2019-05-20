@@ -7,26 +7,38 @@
 //
 
 #import "QiFrameViewController.h"
+#import "QiFrameContentView.h"
+#import "UIView+QiAddition.h"
 
 @interface QiFrameViewController ()
+
+@property (nonatomic, strong) QiFrameContentView *contentView;
 
 @end
 
 @implementation QiFrameViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    _contentView = [[QiFrameContentView alloc] initWithFrame:self.view.bounds];
+    _contentView.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:_contentView];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)viewWillLayoutSubviews {
+    
+    [super viewWillLayoutSubviews];
+    
+    NSLog(@"%s", __FUNCTION__);
+    
+    _contentView.frame = self.view.bounds;
 }
-*/
+
+- (void)viewDidAppear:(BOOL)animated {
+    
+    [super viewDidAppear:animated];
+}
 
 @end
