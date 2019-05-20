@@ -22,7 +22,7 @@
     
     [super viewDidLoad];
     
-    _contentView = [[QiFrameContentView alloc] initWithFrame:self.view.bounds];
+    _contentView = [[QiFrameContentView alloc] initWithFrame:CGRectZero];
     _contentView.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:_contentView];
 }
