@@ -31,14 +31,7 @@
     
     [super viewWillLayoutSubviews];
     
-    NSLog(@"%s", __FUNCTION__);
-    
     _contentView.frame = self.view.bounds;
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    
-    [super viewDidAppear:animated];
 }
 
 @end

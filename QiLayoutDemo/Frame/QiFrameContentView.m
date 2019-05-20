@@ -50,10 +50,8 @@
  
     [super layoutSubviews];
     
-    NSLog(@"%s", __FUNCTION__);
-    
     CGFloat margin = 20.0;
-    CGFloat padding = 10.0;
+    CGFloat padding = 20.0;
     CGFloat width = (self.bounds.size.width - margin * 2 - padding) / 2;
     CGFloat height = (self.bounds.size.height - margin * 2 - padding) / 2;
     

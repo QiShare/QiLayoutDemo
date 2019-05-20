@@ -20,6 +20,7 @@
 		0680F6642292A9CB0063F831 /* QiMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6632292A9CB0063F831 /* QiMasonryViewController.m */; };
 		0680F6672292B5780063F831 /* UIView+QiAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6662292B5780063F831 /* UIView+QiAddition.m */; };
 		0680F66A2292BA3C0063F831 /* QiFrameContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6692292BA3C0063F831 /* QiFrameContentView.m */; };
+		0680F66D2292EF680063F831 /* QiAutoresizingContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F66C2292EF680063F831 /* QiAutoresizingContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		0680F6662292B5780063F831 /* UIView+QiAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QiAddition.m"; sourceTree = "<group>"; };
 		0680F6682292BA3C0063F831 /* QiFrameContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiFrameContentView.h; sourceTree = "<group>"; };
 		0680F6692292BA3C0063F831 /* QiFrameContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiFrameContentView.m; sourceTree = "<group>"; };
+		0680F66B2292EF680063F831 /* QiAutoresizingContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiAutoresizingContentView.h; sourceTree = "<group>"; };
+		0680F66C2292EF680063F831 /* QiAutoresizingContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiAutoresizingContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				0680F63C229295720063F831 /* AppDelegate.m */,
 				0680F63E229295720063F831 /* ViewController.h */,
 				0680F63F229295720063F831 /* ViewController.m */,
+				0680F6652292B5780063F831 /* UIView+QiAddition.h */,
+				0680F6662292B5780063F831 /* UIView+QiAddition.m */,
 				0680F65322929CF20063F831 /* Frame */,
 				0680F6542292A2570063F831 /* Autoresizing */,
 				0680F65222929CEC0063F831 /* Constraint */,
@@ -122,8 +127,6 @@
 				0680F6572292A97F0063F831 /* QiFrameViewController.m */,
 				0680F6682292BA3C0063F831 /* QiFrameContentView.h */,
 				0680F6692292BA3C0063F831 /* QiFrameContentView.m */,
-				0680F6652292B5780063F831 /* UIView+QiAddition.h */,
-				0680F6662292B5780063F831 /* UIView+QiAddition.m */,
 			);
 			path = Frame;
 			sourceTree = "<group>";
@@ -133,6 +136,8 @@
 			children = (
 				0680F6592292A98D0063F831 /* QiAutoresizingViewController.h */,
 				0680F65A2292A98D0063F831 /* QiAutoresizingViewController.m */,
+				0680F66B2292EF680063F831 /* QiAutoresizingContentView.h */,
+				0680F66C2292EF680063F831 /* QiAutoresizingContentView.m */,
 			);
 			path = Autoresizing;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 				0680F66A2292BA3C0063F831 /* QiFrameContentView.m in Sources */,
 				0680F65E2292A99F0063F831 /* QiConstraintViewController.m in Sources */,
 				0680F6612292A9BC0063F831 /* QiStackViewViewController.m in Sources */,
+				0680F66D2292EF680063F831 /* QiAutoresizingContentView.m in Sources */,
 				0680F64B229295740063F831 /* main.m in Sources */,
 				0680F6582292A97F0063F831 /* QiFrameViewController.m in Sources */,
 				0680F63D229295720063F831 /* AppDelegate.m in Sources */,
