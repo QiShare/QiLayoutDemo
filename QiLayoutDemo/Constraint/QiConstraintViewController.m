@@ -25,9 +25,21 @@
     
     [super viewDidLoad];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        self.subView1Trailing.constant *= 2;
-    });
+    UIView *subView5 = [[UIView alloc] initWithFrame:CGRectZero];
+    subView5.backgroundColor = [[UIColor cyanColor] colorWithAlphaComponent:.6];
+    subView5.translatesAutoresizingMaskIntoConstraints = NO;
+    [_contentView addSubview:subView5];
+    
+    NSLayoutConstraint *widthConstraint = [NSLayoutConstraint constraintWithItem:subView5 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:100.0];
+    
+    NSLayoutConstraint *heightConstraint = [NSLayoutConstraint constraintWithItem:subView5 attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:200.0];
+  
+    NSLayoutConstraint *centerXConstraint = [NSLayoutConstraint constraintWithItem:subView5 attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:_contentView attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:.0];
+    
+    NSLayoutConstraint *centerYConstraint = [NSLayoutConstraint constraintWithItem:subView5 attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:_contentView attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:.0];
+    
+    [subView5 addConstraints:@[widthConstraint, heightConstraint]];
+    [_contentView addConstraints:@[centerXConstraint, centerYConstraint]];
 }
 
 @end
