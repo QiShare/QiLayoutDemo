@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0662C1C22293FD66004739F0 /* QiMasonryContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0662C1C12293FD66004739F0 /* QiMasonryContentView.m */; };
 		0680F63D229295720063F831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F63C229295720063F831 /* AppDelegate.m */; };
 		0680F640229295720063F831 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F63F229295720063F831 /* ViewController.m */; };
 		0680F643229295720063F831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0680F641229295720063F831 /* Main.storyboard */; };
@@ -21,9 +22,12 @@
 		0680F6672292B5780063F831 /* UIView+QiAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6662292B5780063F831 /* UIView+QiAddition.m */; };
 		0680F66A2292BA3C0063F831 /* QiFrameContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F6692292BA3C0063F831 /* QiFrameContentView.m */; };
 		0680F66D2292EF680063F831 /* QiAutoresizingContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0680F66C2292EF680063F831 /* QiAutoresizingContentView.m */; };
+		1E700E4CB18BB7D10787B0DE /* libPods-QiLayoutDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EECDF26FE54C30AD0AF005 /* libPods-QiLayoutDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0662C1C02293FD66004739F0 /* QiMasonryContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiMasonryContentView.h; sourceTree = "<group>"; };
+		0662C1C12293FD66004739F0 /* QiMasonryContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiMasonryContentView.m; sourceTree = "<group>"; };
 		0680F638229295720063F831 /* QiLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0680F63B229295720063F831 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0680F63C229295720063F831 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +54,9 @@
 		0680F6692292BA3C0063F831 /* QiFrameContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiFrameContentView.m; sourceTree = "<group>"; };
 		0680F66B2292EF680063F831 /* QiAutoresizingContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiAutoresizingContentView.h; sourceTree = "<group>"; };
 		0680F66C2292EF680063F831 /* QiAutoresizingContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiAutoresizingContentView.m; sourceTree = "<group>"; };
+		56EECDF26FE54C30AD0AF005 /* libPods-QiLayoutDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QiLayoutDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65420B2D10C28932E3A1190E /* Pods-QiLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiLayoutDemo/Pods-QiLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
+		90CB308836FE45F9A7D376AA /* Pods-QiLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiLayoutDemo/Pods-QiLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E700E4CB18BB7D10787B0DE /* libPods-QiLayoutDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +76,8 @@
 			children = (
 				0680F63A229295720063F831 /* QiLayoutDemo */,
 				0680F639229295720063F831 /* Products */,
+				C0EC2787B32616D5C7C7C7EB /* Pods */,
+				32B8EE7AD3A551580DA286EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +117,8 @@
 			children = (
 				0680F6622292A9CB0063F831 /* QiMasonryViewController.h */,
 				0680F6632292A9CB0063F831 /* QiMasonryViewController.m */,
+				0662C1C02293FD66004739F0 /* QiMasonryContentView.h */,
+				0662C1C12293FD66004739F0 /* QiMasonryContentView.m */,
 			);
 			path = Masonry;
 			sourceTree = "<group>";
@@ -151,6 +163,23 @@
 			path = StackView;
 			sourceTree = "<group>";
 		};
+		32B8EE7AD3A551580DA286EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56EECDF26FE54C30AD0AF005 /* libPods-QiLayoutDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0EC2787B32616D5C7C7C7EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90CB308836FE45F9A7D376AA /* Pods-QiLayoutDemo.debug.xcconfig */,
+				65420B2D10C28932E3A1190E /* Pods-QiLayoutDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0680F64E229295740063F831 /* Build configuration list for PBXNativeTarget "QiLayoutDemo" */;
 			buildPhases = (
+				A39CB0399BD5B90F5ECA1CC5 /* [CP] Check Pods Manifest.lock */,
 				0680F634229295720063F831 /* Sources */,
 				0680F635229295720063F831 /* Frameworks */,
 				0680F636229295720063F831 /* Resources */,
@@ -216,6 +246,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A39CB0399BD5B90F5ECA1CC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiLayoutDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0680F634229295720063F831 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -223,6 +274,7 @@
 			files = (
 				0680F6672292B5780063F831 /* UIView+QiAddition.m in Sources */,
 				0680F640229295720063F831 /* ViewController.m in Sources */,
+				0662C1C22293FD66004739F0 /* QiMasonryContentView.m in Sources */,
 				0680F66A2292BA3C0063F831 /* QiFrameContentView.m in Sources */,
 				0680F65E2292A99F0063F831 /* QiConstraintViewController.m in Sources */,
 				0680F6612292A9BC0063F831 /* QiStackViewViewController.m in Sources */,
@@ -371,6 +423,7 @@
 		};
 		0680F64F229295740063F831 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CB308836FE45F9A7D376AA /* Pods-QiLayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -387,6 +440,7 @@
 		};
 		0680F650229295740063F831 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65420B2D10C28932E3A1190E /* Pods-QiLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
