@@ -47,6 +47,8 @@
 }
 
 - (void)layoutSubviews {
+    
+    NSLog(@"%s", __FUNCTION__);
  
     [super layoutSubviews];
     

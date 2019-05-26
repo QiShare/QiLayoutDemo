@@ -7,6 +7,7 @@
 //
 
 #import "QiConstraintViewController.h"
+#import "UIView+QiAddition.h"
 
 @interface QiConstraintViewController ()
 
@@ -38,8 +39,7 @@
     
     NSLayoutConstraint *centerYConstraint = [NSLayoutConstraint constraintWithItem:subView5 attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:_contentView attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:.0];
     
-    [subView5 addConstraints:@[widthConstraint, heightConstraint]];
-    [_contentView addConstraints:@[centerXConstraint, centerYConstraint]];
+    [_contentView addConstraints:@[widthConstraint, heightConstraint, centerXConstraint, centerYConstraint]];
 }
 
 @end

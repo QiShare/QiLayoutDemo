@@ -29,6 +29,8 @@
 
 - (void)viewWillLayoutSubviews {
     
+    NSLog(@"%s", __FUNCTION__);
+    
     [super viewWillLayoutSubviews];
     
     _contentView.frame = self.view.bounds;
