@@ -30,7 +30,7 @@
         make.top.equalTo(self.view.mas_top);
         make.left.equalTo(self.view.mas_left);
         make.right.equalTo(self.view.mas_right);
-        make.bottom.equalTo(self.view.mas_bottom).with.offset(-20.0);
+        make.bottom.equalTo(self.view.mas_bottom).with.offset(.0);
     // make.edges.equalTo(self.view).with.insets(UIEdgeInsetsMake(10.0, 10.0, 10.0, 10.0));
     // make.edges.mas_equalTo(UIEdgeInsetsMake(10.0, 10.0, 10.0, 10.0));
     }];
